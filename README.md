@@ -1,1 +1,1 @@
-#./hybridflood <url> <duration> <requests> <threads>
+./hybridflood <url> <duration> <requests> <threads>
