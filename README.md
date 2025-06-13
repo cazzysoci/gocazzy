@@ -2,5 +2,5 @@
 #welcome
 
 ```bash
-<url> <duration> <requests> <threads>
+./gocazzy <url> <duration> <requests> <threads>
 ```
