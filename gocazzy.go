@@ -61,7 +61,7 @@ func main() {
 		ProxyTimeout:   10 * time.Second,
 		SocketTimeout:  15 * time.Second,
 		UseTLS:         strings.HasPrefix(os.Args[1], "https"),
-		DNSServers:     loadDNSServers("dns_servers.txt"),
+		DNSServers:     loadDNSServers("dns.txt"),
 		DNSQueryDomain: "cloudflare.com", // High amplification factor domain
 		DNSQueryType:   "ANY",            // Amplification type
 	}
